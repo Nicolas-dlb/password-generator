@@ -6,13 +6,13 @@
 <img src="./src/assets/preview.png" alt=“preview” width="400px" >
 </a>
 
-Password generation web application.
+Web application for password generation.
 
 https://my-password-generator.web.app
 
 ### Usage
 
-Generate password by setting your selected options :
+Generate password by setting the desired options :
 
 - Uppercase
 - Lowercase
@@ -27,6 +27,8 @@ Generate password by setting your selected options :
 - Sass
 - Jest
 - Firebase
+
+Accessible / cross-browser / mobile first
 
 <!-- GETTING STARTED -->
 
