@@ -6,6 +6,8 @@
 
 https://my-password-generator.web.app
 
+Application fully accessible on different browsers and usable by people with visual impairments.
+
 ### Usage
 
 Generate password by setting your selected options :
@@ -14,8 +16,6 @@ Generate password by setting your selected options :
 - Lowercase
 - Numbers
 - Symbols
-
-The application is fully accessible on different browsers and usable by people with visual impairments.
 
 ### Built With
 
