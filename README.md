@@ -1,14 +1,14 @@
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## Password Manager
 
 <a href="https://my-password-generator.web.app" markdown="1">
 <img src="./src/assets/preview.png" alt=“preview” width="400px" >
 </a>
 
-https://my-password-generator.web.app
+Password generation web application.
 
-Application fully accessible on different browsers and usable by people with visual impairments.
+https://my-password-generator.web.app
 
 ### Usage
 
@@ -22,9 +22,11 @@ Generate password by setting your selected options :
 ### Built With
 
 - React
+- Redux
 - Typescript
-- Jest
 - Sass
+- Jest
+- Firebase
 
 <!-- GETTING STARTED -->
 
