@@ -2,10 +2,9 @@
 
 ## About The Project
 
-<div style="max-width:400px" markdown="1">
-[![password-generator][preview]](https://my-password-generator.web.app)
+<a href="https://my-password-generator.web.app" style="max-width:450px" markdown="1">
 <img src="./src/assets/preview.png" alt=“preview” >
-</div>
+</a>
 
 https://my-password-generator.web.app
 
