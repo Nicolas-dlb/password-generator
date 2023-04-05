@@ -84,12 +84,13 @@ exports[`App > Renders app properly 1`] = `
                   style="left: 40%;"
                 >
                   <input
+                    aria-label="Number of characters in the password"
                     aria-labelledby="length"
                     aria-orientation="horizontal"
                     aria-valuemax="20"
                     aria-valuemin="0"
                     aria-valuenow="8"
-                    aria-valuetext="length"
+                    aria-valuetext="Number of characters in the password"
                     data-index="0"
                     max="20"
                     min="0"
@@ -298,6 +299,7 @@ exports[`App > Renders app properly 1`] = `
               </div>
             </div>
             <button
+              aria-label="Generate the password"
               class="btn-submit"
               type="submit"
             >
@@ -408,12 +410,13 @@ exports[`App > Renders app properly 1`] = `
                 style="left: 40%;"
               >
                 <input
+                  aria-label="Number of characters in the password"
                   aria-labelledby="length"
                   aria-orientation="horizontal"
                   aria-valuemax="20"
                   aria-valuemin="0"
                   aria-valuenow="8"
-                  aria-valuetext="length"
+                  aria-valuetext="Number of characters in the password"
                   data-index="0"
                   max="20"
                   min="0"
@@ -622,6 +625,7 @@ exports[`App > Renders app properly 1`] = `
             </div>
           </div>
           <button
+            aria-label="Generate the password"
             class="btn-submit"
             type="submit"
           >
