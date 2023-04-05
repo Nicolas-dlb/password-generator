@@ -50,7 +50,8 @@ function Length() {
 				min={0}
 				max={20}
 				ref={slider}
-				aria-valuetext="length"
+				aria-label="Number of characters in the password"
+				aria-valuetext="Number of characters in the password"
 				aria-labelledby="length"
 				onBlur={removeFocusStyle}
 				value={length}
