@@ -1,0 +1,23 @@
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  position: relative;
+  right: 5px;
+  margin: 3px 0;
+
+  label {
+    margin-left: 10px;
+
+    .letters {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .option label .letters {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,19 @@
+.btn-copy-to-clipboard {
+  background: transparent;
+  border: none;
+  padding: 2px;
+  border-radius: 4px;
+
+  &:focus-visible {
+    outline: 2px solid var(--primary-color);
+  }
+
+  &:disabled .copy-to-clipboard-icon {
+    stroke: #848387;
+  }
+
+  &:not(:disabled):hover .copy-to-clipboard-icon {
+    stroke: white;
+    cursor: pointer;
+  }
+}

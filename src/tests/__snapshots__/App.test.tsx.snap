@@ -1,0 +1,706 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > Renders app properly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="app"
+      >
+        <div
+          class="app__layout"
+        >
+          <h3
+            class="app__title"
+          >
+            PASSWORD GENERATOR
+          </h3>
+          <section
+            class="password__wrapper"
+          >
+            <p
+              class="password placeholder-color"
+            >
+              P4$5W0rD!
+            </p>
+            <button
+              aria-label="copy password to clipboard"
+              class="btn-copy-to-clipboard"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="copy-to-clipboard-icon"
+                fill="none"
+                height="25"
+                stroke="current"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                width="25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </section>
+          <form
+            class="form"
+          >
+            <div
+              class="length"
+            >
+              <div
+                class="length__header"
+              >
+                <label
+                  for="length"
+                >
+                  Character Length
+                </label>
+                <p
+                  class="length__value"
+                >
+                  8
+                </p>
+              </div>
+              <span
+                class="MuiSlider-root MuiSlider-colorPrimary MuiSlider-sizeMedium css-1f6pn1g-MuiSlider-root"
+              >
+                <span
+                  class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+                />
+                <span
+                  class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+                  style="left: 0%; width: 40%;"
+                />
+                <span
+                  class="MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-eg0mwd-MuiSlider-thumb"
+                  data-index="0"
+                  style="left: 40%;"
+                >
+                  <input
+                    aria-labelledby="length"
+                    aria-orientation="horizontal"
+                    aria-valuemax="20"
+                    aria-valuemin="0"
+                    aria-valuenow="8"
+                    aria-valuetext="length"
+                    data-index="0"
+                    max="20"
+                    min="0"
+                    step="1"
+                    style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                    type="range"
+                    value="8"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="settings"
+            >
+              <div
+                class="option false"
+              >
+                <label
+                  for="Uppercase"
+                >
+                  Include 
+                  Uppercase
+                   
+                  <span
+                    class="letters"
+                  >
+                     
+                    Letters
+                  </span>
+                </label>
+                <span
+                  class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+                >
+                  <input
+                    checked=""
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    data-indeterminate="false"
+                    id="Uppercase"
+                    tabindex="0"
+                    type="checkbox"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CheckBoxIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="option false"
+              >
+                <label
+                  for="Lowercase"
+                >
+                  Include 
+                  Lowercase
+                   
+                  <span
+                    class="letters"
+                  >
+                     
+                    Letters
+                  </span>
+                </label>
+                <span
+                  class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+                >
+                  <input
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    data-indeterminate="false"
+                    id="Lowercase"
+                    tabindex="0"
+                    type="checkbox"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CheckBoxOutlineBlankIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="option false"
+              >
+                <label
+                  for="Numbers"
+                >
+                  Include 
+                  Numbers
+                   
+                  <span
+                    class="letters"
+                  >
+                     
+                  </span>
+                </label>
+                <span
+                  class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+                >
+                  <input
+                    checked=""
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    data-indeterminate="false"
+                    id="Numbers"
+                    tabindex="0"
+                    type="checkbox"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CheckBoxIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="option false"
+              >
+                <label
+                  for="Symbols"
+                >
+                  Include 
+                  Symbols
+                   
+                  <span
+                    class="letters"
+                  >
+                     
+                  </span>
+                </label>
+                <span
+                  class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+                >
+                  <input
+                    class="PrivateSwitchBase-input css-1m9pwf3"
+                    data-indeterminate="false"
+                    id="Symbols"
+                    tabindex="0"
+                    type="checkbox"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CheckBoxOutlineBlankIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div
+              class="strength"
+            >
+              <p
+                class="strength__title"
+              >
+                STRENGTH
+              </p>
+              <div
+                class="strength__indicator"
+              >
+                <p
+                  class="strength__indicator__grade"
+                />
+                <div
+                  class="indicator"
+                >
+                  <span
+                    class="indicator_box false"
+                    data-testid="indicator_boxfalse"
+                  />
+                  <span
+                    class="indicator_box false"
+                    data-testid="indicator_boxfalse"
+                  />
+                  <span
+                    class="indicator_box false"
+                    data-testid="indicator_boxfalse"
+                  />
+                  <span
+                    class="indicator_box false"
+                    data-testid="indicator_boxfalse"
+                  />
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn-submit"
+              type="submit"
+            >
+              <p>
+                Generate
+              </p>
+              <svg
+                fill="none"
+                height="15"
+                stroke="currentColor"
+                stroke-width="3"
+                viewBox="0 0 24 24"
+                width="15"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </form>
+          <div
+            class="Toastify"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="app"
+    >
+      <div
+        class="app__layout"
+      >
+        <h3
+          class="app__title"
+        >
+          PASSWORD GENERATOR
+        </h3>
+        <section
+          class="password__wrapper"
+        >
+          <p
+            class="password placeholder-color"
+          >
+            P4$5W0rD!
+          </p>
+          <button
+            aria-label="copy password to clipboard"
+            class="btn-copy-to-clipboard"
+            disabled=""
+            type="button"
+          >
+            <svg
+              class="copy-to-clipboard-icon"
+              fill="none"
+              height="25"
+              stroke="current"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              width="25"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </section>
+        <form
+          class="form"
+        >
+          <div
+            class="length"
+          >
+            <div
+              class="length__header"
+            >
+              <label
+                for="length"
+              >
+                Character Length
+              </label>
+              <p
+                class="length__value"
+              >
+                8
+              </p>
+            </div>
+            <span
+              class="MuiSlider-root MuiSlider-colorPrimary MuiSlider-sizeMedium css-1f6pn1g-MuiSlider-root"
+            >
+              <span
+                class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+              />
+              <span
+                class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+                style="left: 0%; width: 40%;"
+              />
+              <span
+                class="MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-eg0mwd-MuiSlider-thumb"
+                data-index="0"
+                style="left: 40%;"
+              >
+                <input
+                  aria-labelledby="length"
+                  aria-orientation="horizontal"
+                  aria-valuemax="20"
+                  aria-valuemin="0"
+                  aria-valuenow="8"
+                  aria-valuetext="length"
+                  data-index="0"
+                  max="20"
+                  min="0"
+                  step="1"
+                  style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+                  type="range"
+                  value="8"
+                />
+              </span>
+            </span>
+          </div>
+          <div
+            class="settings"
+          >
+            <div
+              class="option false"
+            >
+              <label
+                for="Uppercase"
+              >
+                Include 
+                Uppercase
+                 
+                <span
+                  class="letters"
+                >
+                   
+                  Letters
+                </span>
+              </label>
+              <span
+                class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+              >
+                <input
+                  checked=""
+                  class="PrivateSwitchBase-input css-1m9pwf3"
+                  data-indeterminate="false"
+                  id="Uppercase"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="CheckBoxIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="option false"
+            >
+              <label
+                for="Lowercase"
+              >
+                Include 
+                Lowercase
+                 
+                <span
+                  class="letters"
+                >
+                   
+                  Letters
+                </span>
+              </label>
+              <span
+                class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+              >
+                <input
+                  class="PrivateSwitchBase-input css-1m9pwf3"
+                  data-indeterminate="false"
+                  id="Lowercase"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="CheckBoxOutlineBlankIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="option false"
+            >
+              <label
+                for="Numbers"
+              >
+                Include 
+                Numbers
+                 
+                <span
+                  class="letters"
+                >
+                   
+                </span>
+              </label>
+              <span
+                class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+              >
+                <input
+                  checked=""
+                  class="PrivateSwitchBase-input css-1m9pwf3"
+                  data-indeterminate="false"
+                  id="Numbers"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="CheckBoxIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="option false"
+            >
+              <label
+                for="Symbols"
+              >
+                Include 
+                Symbols
+                 
+                <span
+                  class="letters"
+                >
+                   
+                </span>
+              </label>
+              <span
+                class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-root MuiCheckbox-colorPrimary css-53fzw-MuiButtonBase-root-MuiCheckbox-root"
+              >
+                <input
+                  class="PrivateSwitchBase-input css-1m9pwf3"
+                  data-indeterminate="false"
+                  id="Symbols"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="CheckBoxOutlineBlankIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div
+            class="strength"
+          >
+            <p
+              class="strength__title"
+            >
+              STRENGTH
+            </p>
+            <div
+              class="strength__indicator"
+            >
+              <p
+                class="strength__indicator__grade"
+              />
+              <div
+                class="indicator"
+              >
+                <span
+                  class="indicator_box false"
+                  data-testid="indicator_boxfalse"
+                />
+                <span
+                  class="indicator_box false"
+                  data-testid="indicator_boxfalse"
+                />
+                <span
+                  class="indicator_box false"
+                  data-testid="indicator_boxfalse"
+                />
+                <span
+                  class="indicator_box false"
+                  data-testid="indicator_boxfalse"
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="btn-submit"
+            type="submit"
+          >
+            <p>
+              Generate
+            </p>
+            <svg
+              fill="none"
+              height="15"
+              stroke="currentColor"
+              stroke-width="3"
+              viewBox="0 0 24 24"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </form>
+        <div
+          class="Toastify"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

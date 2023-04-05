@@ -1,0 +1,15 @@
+.length {
+  width: 100%;
+
+  .length__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .length__value {
+      color: var(--primary-color);
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+}

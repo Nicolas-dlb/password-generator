@@ -1,0 +1,38 @@
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: var(--primary-color);
+  color: var(--main-bg-color);
+  border: none;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 2px 0;
+
+  &:focus-visible {
+    outline: 2px solid var(--primary-color);
+    border: 3px solid var(--secondary-bg-color);
+    border-radius: 3px;
+    margin: 0;
+  }
+
+  &:hover {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    &:focus-visible {
+      border: 3px solid var(--secondary-bg-color);
+    }
+  }
+
+  svg {
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+  }
+}

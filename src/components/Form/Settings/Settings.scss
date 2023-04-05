@@ -1,0 +1,10 @@
+.settings {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	.setting {
+		position: relative;
+		right: 9px;
+	}
+}

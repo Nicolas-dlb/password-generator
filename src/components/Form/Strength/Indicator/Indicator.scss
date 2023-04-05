@@ -1,0 +1,15 @@
+.indicator {
+	display: flex;
+	gap: 5px;
+
+	.indicator_box {
+		border: 1.5px solid white;
+		height: 21px;
+		width: 4px;
+
+		&.active {
+			background-color: #f9cf64;
+			border: 1.5px solid #f9cf64;
+		}
+	}
+}
