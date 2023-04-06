@@ -28,8 +28,6 @@ Generate password by setting the desired options :
 - Jest
 - Firebase
 
-Accessible / cross-browser / mobile first
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
