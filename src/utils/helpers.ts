@@ -51,3 +51,14 @@ export const evaluatePassword = (password: string) => {
 
 	return score;
 };
+
+export const getGrade = (score: number): string => {
+	let grade = "";
+
+	if (score === 1) grade = "TOO WEAK";
+	if (score === 2) grade = "WEAK";
+	if (score === 3) grade = "MEDIUM";
+	if (score === 4) grade = "STRONG";
+
+	return grade;
+};
