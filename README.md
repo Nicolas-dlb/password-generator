@@ -1,6 +1,6 @@
 <!-- ABOUT THE PROJECT -->
 
-## Password Manager
+## Password Generator
 
 <a href="https://my-password-generator.web.app" markdown="1">
 <img src="./src/assets/preview.png" alt=“preview” width="400px" >
