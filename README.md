@@ -27,6 +27,7 @@ Generate password by setting the desired options :
 - Sass
 - Jest
 - Firebase
+- Material UI
 
 <!-- GETTING STARTED -->
 
